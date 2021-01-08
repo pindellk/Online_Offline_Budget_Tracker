@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "lite-server": "lite-server",
+    "build": "webpack --watch",
+    "run": "webpack ./public/assets/js/index.js bundle.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,13 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }

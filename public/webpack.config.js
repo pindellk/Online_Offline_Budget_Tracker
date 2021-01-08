@@ -3,11 +3,11 @@ const path = require("path");
 
 const config = {
     entry: {
-        app: "./assets/js/index.js",
+        app: "./assets/index.js",
     },
     output: {
         path: __dirname + "/dist",
-        filename: "[name].bundle.js",
+        filename: "bundle.js",
     },
     mode: "development",
     module: {
@@ -26,6 +26,7 @@ const config = {
     },
     plugins: [
         new WebpackPwaManifest({
+            filename: "manifest.json", // might not need?
             fingerprints: false,
             name: "Budget Tracker",
             short_name: "Budget",
@@ -38,7 +39,7 @@ const config = {
                 {
                     src: path.resolve('assets/images/icons/icon-192x192.png'),
                     sizes: [96, 128, 192, 256, 384, 512],
-                    destination: path.join('assets', 'icons'),
+                    destination: path.join('assets', 'images', 'icons'),
                 },
             ],
         }),
