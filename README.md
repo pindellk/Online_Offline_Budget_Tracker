@@ -1,5 +1,5 @@
 # Online_Offline_Budget_Tracker
-This is a progressive web app (PWA) budget tracking application. User will be able to add and subtract funds from their budget with or without an internet connection. Transactions entered offline will populate and recalculate the total when the app is brought back online.
+This is a progressive web app (PWA) budget tracker. Users can add and subtract funds from their budget with or without an internet connection. Transactions entered offline will populate and recalculate the total when the app is brought back online.
 
 ---
 <br>
@@ -60,5 +60,5 @@ None
 ### Author Info
 
 Feel free to reach out with any questions or suggestions for improvement.
-- Linkedin -- [Katie Pindell](https://www.linkedin.com/in/katie-pindell-6ba25364/)
+- Linkedin - [Katie Pindell](https://www.linkedin.com/in/katie-pindell-6ba25364/)
 

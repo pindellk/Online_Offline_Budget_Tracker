@@ -3,11 +3,12 @@ const path = require("path");
 
 const config = {
     entry: {
-        app: "./assets/index.js",
+        app: "./assets/js/index.js",
+        db: "./assets/js/db.js"
     },
     output: {
         path: __dirname + "/dist",
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
     },
     mode: "development",
     module: {
@@ -26,7 +27,7 @@ const config = {
     },
     plugins: [
         new WebpackPwaManifest({
-            filename: "manifest.json", // might not need?
+            filename: "manifest.json",
             fingerprints: false,
             name: "Budget Tracker",
             short_name: "Budget",
