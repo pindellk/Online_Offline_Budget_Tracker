@@ -4,7 +4,7 @@ This is a progressive web app (PWA) budget tracker. Users can add and subtract f
 ---
 <br>
 
-[LIVE ON HEROKU](LINK)
+[LIVE ON HEROKU](https://fathomless-earth-40526.herokuapp.com/)
 
 ### Table of Contents
 - [Screen Shots](#screen-shots)
@@ -42,7 +42,7 @@ Giving users a fast and easy way to track their money is important, but allowing
 - JavaScript
 - Node.js
 - Express
-- Mongodb
+- MongoDB
 - Mongoose
 - IndexedDB
 - Service Worker
