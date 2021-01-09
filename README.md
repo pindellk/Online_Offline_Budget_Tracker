@@ -19,7 +19,7 @@ This is a progressive web app (PWA) budget tracker. Users can add and subtract f
 
 ### Screen Shots
 
-![Main](./public/assets/images/main.png) // FIX
+![Main](./public/assets/images/budget_tracker.png)
 
 ### User Story
 AS AN avid traveller
