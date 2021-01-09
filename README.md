@@ -4,7 +4,7 @@ This is a progressive web app (PWA) budget tracker. Users can add and subtract f
 ---
 <br>
 
-[LIVE ON HEROKU](https://fathomless-earth-40526.herokuapp.com/)
+[LIVE ON HEROKU](https://ancient-eyrie-10493.herokuapp.com/)
 
 ### Table of Contents
 - [Screen Shots](#screen-shots)
